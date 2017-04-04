@@ -14,7 +14,7 @@
 
 void	ft_get_color(t_graph *draw)
 {
-	if (ALT < 0)
+	if (ALT <= 0)
 		draw->color = 0xFFFF00;
 	if (ALT > 0)
 		draw->color = 0x00FFFF;
